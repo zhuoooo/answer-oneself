@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {
+    'import/no-extraneous-dependencies': 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/no-empty-function": 0,
     "@typescript-eslint/no-shadow": 0,
@@ -20,10 +21,6 @@ module.exports = {
     camelcase: 0,
     "class-methods-use-this": 0,
     "import/extensions": 0,
-    "import/no-extraneous-dependencies": [
-      "error",
-      { devDependencies: ["**/*.test.ts"] },
-    ],
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
     "keyword-spacing": "error",

@@ -1,4 +1,4 @@
-# langchain-ts-starter
+# Answer Oneself
 
 Boilerplate to get started quickly with the [Langchain Typescript SDK](https://github.com/hwchase17/langchainjs).
 
